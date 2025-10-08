@@ -7,4 +7,17 @@ project(
     ],
 )
 
-lib = library('rusted', 'src' / 'lib.rs')
+subproject('meval')
+subproject('rayon')
+subproject('regex')
+subproject('itertools')
+subproject('sfml')
+
+lib = library('rusted', 'src' / 'lib.rs', dependencies: [
+        'meval-0.2-rs',
+        'rayon-1.11-rs',
+        'regex-1.11-rs',
+        'itertools-0.14-rs',
+        'sfml-0.25-rs',
+    ]
+)
