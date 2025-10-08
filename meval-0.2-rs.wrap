@@ -1,0 +1,5 @@
+[wrap-file]
+method = cargo
+
+[provide]
+dependency_names = meval-0.2-rs
