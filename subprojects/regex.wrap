@@ -1,5 +1,2 @@
 [wrap-file]
 method = cargo
-
-[provide]
-dependency_names = regex-1.11-rs

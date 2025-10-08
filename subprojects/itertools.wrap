@@ -1,5 +1,2 @@
 [wrap-file]
 method = cargo
-
-[provide]
-dependency_names = itertools-0.14-rs

@@ -1,5 +1,2 @@
 [wrap-file]
 method = cargo
-
-[provide]
-dependency_names = sfml-0.25-rs
