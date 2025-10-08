@@ -1,2 +1,5 @@
 target
 .wraplock
+/subprojects/*-*
+/subprojects/packagecache
+/subprojects/meval
